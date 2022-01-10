@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Home-teams{% endblock title %}
+{% block teamsactive %} active {% endblock teamsactive %}
+{% block teams_body %}
+<table> 
+    <tr>   
+        <th>
+            <div class="card" style="width: 15rem;">
+                <img src="{% static "assets/img/B.Janetmaam.jpeg" %}" width="214px" height="270px" alt="">                    
+                <div class="card-body">
+                <p class="card-text" >DR.(MRS.) B.JANET
+                    Staff Advisor</p>
+                </div>
+            </div>
+        </th>
+    </tr>
+    <tr>
+        <th>
+            <div class="card" style="width: 15rem;">
+                <img src="{% static "assets/img/2023/bhumika.jpeg" %}" width="214px" height="270px" alt="">                    
+                <div class="card-body">
+                <p class="card-text">BHUMIKA KHAKHA</p>
+                </div>
+            </div>
+        </th>
+        <th>
+            <div class="card" style="width: 15rem;">
+                <img src="{% static "assets/img/2023/shanoor.jpeg" %}" width="214px" height="270px" alt="">                    
+                <div class="card-body">
+                <p class="card-text">SHANOOR AHMED</p>
+                </div>
+            </div>
+        </th>
+    </tr> 
+</table>
+{% endblock teams_body %}
