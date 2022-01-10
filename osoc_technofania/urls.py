@@ -18,9 +18,9 @@ from django.urls import path,include
 from django.conf.urls.static import static
 from osoc_technofania import settings
 
-admin.site.site_header = "ACM ADMIN"
-admin.site.site_title = "ACM ADMIN PANEL"
-admin.site.index_title = "WELCOME ACM ADMIN"
+admin.site.site_header = "TECHNOFANIA ADMIN"
+admin.site.site_title = "TECHNOFANIA ADMIN PANEL"
+admin.site.index_title = "WELCOME TECHNOFANIA ADMIN"
 
 urlpatterns = [
     path('admin/', admin.site.urls),
